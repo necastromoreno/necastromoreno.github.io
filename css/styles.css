@@ -1,6 +1,7 @@
 .f-family
 {
     font-family: Angsana New, Franklin Gothic Heavy, Franklin Gothic Book!important;
+    font-size: 25px;
 }
 .bg-blue
 {
@@ -25,6 +26,10 @@
 .bg-light-gray
 {
     background-color: #B3B3B3!important;
+}
+.bg-black
+{
+    background-color: #000
 }
 .f-blue
 {
@@ -83,7 +88,7 @@ html
 }
 body
 {
-    margin-bottom: 60px;
+    margin-bottom: 100px!important;
 }
 .footer {
     position: absolute;
@@ -92,4 +97,17 @@ body
     height: 100px;
     line-height: 100px;
     background-color: #B3B3B3;
+}
+.text-align-right
+{
+    text-align: right;
+}
+.text-align-center
+{
+    text-align: center;
+}
+.footer .logo-unad
+{
+    float: left;
+    margin-top: 25px;
 }
