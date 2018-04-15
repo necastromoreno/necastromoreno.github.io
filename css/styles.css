@@ -1,3 +1,7 @@
+p
+{
+    text-align: justify;
+}
 .f-family
 {
     font-family: Angsana New, Franklin Gothic Heavy, Franklin Gothic Book!important;
@@ -87,7 +91,7 @@ html
 }
 body
 {
-    margin-bottom: 100px!important;
+    margin-bottom: 130px!important;
 }
 .footer {
     position: absolute;
@@ -96,6 +100,11 @@ body
     height: 100px;
     line-height: 100px;
     background-color: #B3B3B3;
+}
+.author.label
+{
+    width: 90px;
+    display: inline-block;
 }
 .text-align-right
 {
@@ -167,4 +176,19 @@ body
 #contenido td
 {
     position:relative;
+}
+/*<hr> bonito*/
+hr.pretty {
+    border-top: 4px double #B3B3B3;
+    text-align: center;
+}
+hr.pretty:after {
+    content: '\002665';
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 10px;
+    background: #FFF;
+    color: #B3B3B3;
+    font-size: 18px;
 }
