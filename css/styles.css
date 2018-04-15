@@ -1,7 +1,6 @@
 .f-family
 {
     font-family: Angsana New, Franklin Gothic Heavy, Franklin Gothic Book!important;
-    font-size: 25px;
 }
 .bg-blue
 {
@@ -110,4 +109,62 @@ body
 {
     float: left;
     margin-top: 25px;
+}
+/*Crucigrama*/
+#contenido #puzzle
+{
+    width:100%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+#contenido .square
+{
+    width:30px;
+    height:30px;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    position: relative;
+}
+#contenido .empty
+{
+    background-color:white;
+}
+#contenido .letter
+{
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+#contenido #puzzle_container
+{
+    display: inline-block;
+    width:50%
+    height: 50%;
+}
+#contenido #hints_container
+{
+    width:50%
+    height: 50%;
+    margin-left: 25px;
+    font-size: 20px;
+    text-align: justify;
+    display: inline-block;
+}
+#contenido .active
+{
+    border-color: red;
+}
+#contenido .question_number
+{
+    position: absolute;
+    font-size: 12px;
+    color: grey;
+    left: 3px;
+    top: 3px;
+}
+#contenido td
+{
+    position:relative;
 }
